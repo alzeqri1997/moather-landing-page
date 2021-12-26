@@ -1,16 +1,28 @@
+@font-face {
+  font-family: "shamel-bold";
+  src: url("../fonts/SF-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "shamel-book";
+  src: url("../fonts/SF-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "shamel-light";
+  src: url("../fonts/SF-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "shamel-medium";
+  src: url("../fonts/SF-Medium.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: "shamel-medium" !important;
+  font-size: 62.5%;
 }
