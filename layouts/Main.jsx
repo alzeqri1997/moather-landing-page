@@ -3,7 +3,9 @@ import Clients from '../components/Clients/Clients'
 
 const Main = () => {
   return (
-      <Clients />
+      <div className="bg-white" >
+        <Clients />
+      </div>
     </main>
   )
 }

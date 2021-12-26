@@ -6,7 +6,7 @@ import usersIcon from '../../public/images/users_icon.svg'
 
 const Clients = () => {
   return (
-    <section className="my-[82px]" >
+    <section className="my-[82px] container" >
       <div className="flex items-center justify-center flex-col" >
         <div className="text-center" >
           <h3 className="text-[1.6rem] text-[#E6427A]" >خدماتنا</h3>
