@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../layouts/Header";
+import Main from "../layouts/Main";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Main />
     </>
   );
 }
