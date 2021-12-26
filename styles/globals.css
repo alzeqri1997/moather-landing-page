@@ -26,3 +26,18 @@ body {
   font-family: "shamel-medium" !important;
   font-size: 62.5%;
 }
+
+.custom-border-1 {
+  z-index: 1;
+}
+
+.custom-border-1::after {
+  content: "";
+  width: 111px;
+  height: 16px;
+  background-color: #e6427a;
+  position: absolute;
+  bottom: 13px;
+  right: 3px;
+  z-index: -1;
+}
