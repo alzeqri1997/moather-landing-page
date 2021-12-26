@@ -41,3 +41,9 @@ body {
   right: 3px;
   z-index: -1;
 }
+
+.custom-gradient {
+  background-image: url("../public/images/bg-gradient.svg");
+  background-position: center;
+  background-size: 530px;
+}
