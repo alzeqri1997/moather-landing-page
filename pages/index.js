@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../layouts/Header";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <meta name='description' content='الصفحة التعريفية لشركة مؤثر ' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      <Header />
     </>
   );
 }
