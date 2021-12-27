@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       dropShadow: {
         "shadow-text": "0 10px 50px rgba(0,0,0, 0.04)",
+        "shadow-bg": "0 3px 50px rgba(0,0,0,0.04)",
       },
       fontFamily: {
         "shamel-bold": ["shamel-bold", "sans-serif"],
