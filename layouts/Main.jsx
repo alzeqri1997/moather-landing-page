@@ -5,6 +5,7 @@ import Analytics from '../components/Analytics/Analytics'
 import AboutUs from '../components/AboutUs/AboutUs'
 import FeedBack from '../components/FeedBack/FeedBack'
 import Articles from '../components/Articles/Articles'
+import ContactUs from '../components/ContactUs/ContactUs'
 
 const Main = () => {
   return (
@@ -24,6 +25,10 @@ const Main = () => {
       </div>
       <div className="bg-white" >
         <Articles />
+      </div>
+
+      <div className="bg-[#F9F9F9]" >
+        <ContactUs />
       </div>
     </main>
   )
