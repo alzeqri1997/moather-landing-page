@@ -6,6 +6,7 @@ import AboutUs from '../components/AboutUs/AboutUs'
 import FeedBack from '../components/FeedBack/FeedBack'
 import Articles from '../components/Articles/Articles'
 import ContactUs from '../components/ContactUs/ContactUs'
+import Customers from '../components/Customers/Customers'
 
 const Main = () => {
   return (
@@ -29,6 +30,10 @@ const Main = () => {
 
       <div className="bg-[#F9F9F9]" >
         <ContactUs />
+      </div>
+
+      <div className="bg-white" >
+        <Customers />
       </div>
     </main>
   )
