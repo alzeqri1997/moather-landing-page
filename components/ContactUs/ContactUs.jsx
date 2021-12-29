@@ -23,7 +23,7 @@ const ContactUs = () => {
                 <textarea className="appearance-none bg-[#F4F4F4]  w-full py-[20px] pr-[20px] px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="" id="" cols="5" rows="5" placeholder="التفاصيل"></textarea>
               </div>
 
-              <button className="w-full bg-[#E6427A] text-[1.6rem]  text-white font-bold py-2 px-4 rounded-[10px] focus:outline-none focus:shadow-outline" type="button" >
+              <button className="w-full bg-[#E6427A] pt-[19px] pb-[17px] text-[1.6rem]  text-white rounded-[10px] focus:outline-none focus:shadow-outline" type="button" >
                 ارسل الان
               </button>
             </form>
