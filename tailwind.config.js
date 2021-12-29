@@ -11,7 +11,7 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      custom: "1440px",
+      "1xl": "1440px",
       "2xl": "1536px",
     },
     container: {
@@ -20,7 +20,7 @@ module.exports = {
         DEFAULT: "36px",
         sm: "60px",
         lg: "80px",
-        custom: "100px",
+        "1xl": "100px",
         xl: "120px",
         "2xl": "140px",
       },
