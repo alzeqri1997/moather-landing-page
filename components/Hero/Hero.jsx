@@ -4,7 +4,7 @@ import heroImage from '../../public/images/hero_image.svg'
 
 const Hero = () => {
   return (
-    <div className="flex justify-between items-center container mt-[90px] pb-[51px]" >
+    <div className="flex justify-between items-center container pt-[183px] pb-[51px]" >
       <div className="w-[571px]" >
         <h1 className="text-[50px] font-shamel-bold text-[#5B315E] relative custom-border-1" >مؤثر</h1>
         <h1 className="text-[47px] leading-[70px] font-shamel-bold max-w-[571px]" >منصة تقدم خدمات
