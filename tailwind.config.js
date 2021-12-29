@@ -6,13 +6,22 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      custom: "1440px",
+      "2xl": "1536px",
+    },
     container: {
       center: true,
       padding: {
         DEFAULT: "36px",
-        sm: "100px",
-        lg: "140px",
-        xl: "140px",
+        sm: "60px",
+        lg: "80px",
+        custom: "100px",
+        xl: "120px",
         "2xl": "140px",
       },
     },
