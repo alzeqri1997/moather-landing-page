@@ -5,7 +5,7 @@ import ReactVisibilitySensor from 'react-visibility-sensor'
 const Analytics = () => {
   return (
     <section className='container my-[70px] ' >
-      <div className="flex gap-[296px] items-center" >
+      <div className="flex gap-[250px] 1xl:gap-[296px] items-center" >
         <div>
           <h2 className="text-[1.6rem] text-[#E6427A] " >احصائيات</h2>
           <h1 className="text-[3.8rem] text-[#2E1A46] font-shamel-bold " >تعرف على</h1>

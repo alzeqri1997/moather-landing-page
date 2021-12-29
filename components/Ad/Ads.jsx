@@ -37,7 +37,7 @@ const Ads = () => {
         </div>
 
       </div>
-      <div className=" pr-[140px] mb-[70px]" >
+      <div className=" pr-[80px] 1xl:pr-[140px] mb-[70px]" >
 
         <Swiper slidesPerView={4} dir="rtl" loop={true} navigation={{
           prevEl: navigationPrevRef.current,

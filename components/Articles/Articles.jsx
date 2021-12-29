@@ -10,7 +10,7 @@ const Articles = () => {
         <h2 className="text-[1.6rem] text-[#E6427A]" >المدونة</h2>
         <h1 className="text-[3.8rem] text-[#2E1A46] font-shamel-bold  " >تابع اخر مقالاتنا</h1>
       </div>
-      <div className="grid grid-cols-3 place-items-center">
+      <div className="grid grid-cols-3 gap-[10px] 1xl:gap-0 place-items-center">
         <div>
           <img className="w-[358px] h-[352px]" src={photo3.src} alt="image photo" />
           <div className="bg-white drop-shadow-shadow-bg rounded-[6px] max-w-[325px] mx-auto -translate-y-[71px] " >
