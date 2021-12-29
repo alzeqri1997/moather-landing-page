@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import { SliderData } from '../ImageSlider/SliderData'
+import useWindowSize from '../../hooks/useWindowSize'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
@@ -10,8 +11,20 @@ import "swiper/css/pagination"
 SwiperCore.use([Navigation, Pagination]);
 
 const Ads = () => {
+  const { width } = useWindowSize()
   const navigationPrevRef = useRef()
   const navigationNextRef = useRef()
+  const [slidesPerView, setSlidesPerView] = useState(4)
+
+  useEffect(() => {
+    if (width > 1024) {
+      setSlidesPerView(4)
+    }
+    if (width <= 1024) {
+      setSlidesPerView(3)
+    }
+
+  }, [width])
 
   return (
     <section className=" overflow-hidden max-w-[1440px] mx-auto" >
@@ -39,7 +52,7 @@ const Ads = () => {
       </div>
       <div className=" pr-[80px] 1xl:pr-[140px] mb-[70px]" >
 
-        <Swiper slidesPerView={4} dir="rtl" loop={true} navigation={{
+        <Swiper slidesPerView={slidesPerView} dir="rtl" loop={true} navigation={{
           prevEl: navigationPrevRef.current,
           nextEl: navigationNextRef.current
         }} className="mySwiper"

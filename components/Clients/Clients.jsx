@@ -14,7 +14,7 @@ const Clients = () => {
         </div>
 
 
-        <div className="grid grid-cols-3 gap-[30px] mt-[60px]" >
+        <div className="grid grid-cols-2 1xl:grid-cols-3 gap-[30px] mt-[60px]" >
           <div className="w-[320px] drop-shadow-shadow-text rounded-[6px] bg-white" >
             <div className="mt-[50px] mr-[69px] mb-[40px]" >
               <img src={castIcon.src} alt="cast icon" />
