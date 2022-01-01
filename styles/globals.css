@@ -65,6 +65,45 @@ body {
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .custom-border-1::after {
+    height: 8.49px;
+    bottom: 7px;
+    right: 1px;
+  }
+  .custom-border-2::after {
+    height: 8.49px;
+    bottom: 4px;
+    right: 1px;
+  }
+
+  .custom-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+
+  .mySwiper {
+    padding-bottom: 80px !important;
+  }
+
+  .swiper-pagination {
+    display: block !important;
+
+    bottom: 37px !important;
+  }
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 11.03px;
+    height: 11.03px;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: #e6427a !important;
+  }
+}
+
 .custom-gradient {
   background-image: url("../public/images/bg-gradient.svg");
   background-position: center;
