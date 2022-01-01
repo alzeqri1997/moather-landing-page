@@ -5,13 +5,13 @@ import ReactVisibilitySensor from 'react-visibility-sensor'
 const Analytics = () => {
   return (
     <section className='container my-[70px] ' >
-      <div className="flex gap-[120px] xl:gap-[250px] 1xl:gap-[296px] items-center" >
+      <div className="flex flex-col text-center md:text-right md:flex-row gap-[35px] md:gap-[120px] xl:gap-[250px] 1xl:gap-[296px] items-center" >
         <div>
-          <h2 className="text-[1.6rem] text-[#E6427A] " >احصائيات</h2>
-          <h1 className="text-[3.8rem] text-[#2E1A46] font-shamel-bold " >تعرف على</h1>
-          <h1 className="text-[3.8rem] text-[#2E1A46] font-shamel-bold custom-border-2 relative z-0 inline-block" >احصائيات مؤثر</h1>
+          <h2 className="text-[1.2rem] md:text-[1.6rem] text-[#E6427A] " >احصائيات</h2>
+          <h1 className="text-[1.8rem] md:text-[3.8rem] text-[#2E1A46] font-shamel-bold float-right ml-[4px] md:float-none md:ml-0 " >تعرف على</h1>
+          <h1 className="text-[1.8rem] md:text-[3.8rem] text-[#2E1A46] font-shamel-bold custom-border-2 relative z-0 inline-block" >احصائيات مؤثر</h1>
         </div>
-        <div className="flex gap-[30px] 1xl:gap-[52px]" >
+        <div className="flex flex-col md:flex-row gap-[30px] 1xl:gap-[52px]" >
           <div className="text-center" >
             <h1 className="text-[3.8rem] text-[#2E1A46] font-shamel-bold " >
               <span className="text-[#E6427A]" >+</span>

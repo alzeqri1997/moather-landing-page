@@ -5,9 +5,9 @@ const AboutUs = () => {
   return (
     <section  >
       <div className="bg-[#5B315E]" >
-        <div className="text-center pt-[72px] pb-[266px]" >
-          <h2 className="text-[1.6rem] text-[#E6427A]" >من نحن</h2>
-          <h1 className="text-[3.8rem] text-white font-shamel-bold " >لماذا منصة مؤثر</h1>
+        <div className="text-center pt-[31px] md:pt-[72px] pb-[90px] md:pb-[266px]" >
+          <h2 className="text-[1.2rem] md:text-[1.6rem] text-[#E6427A]" >من نحن</h2>
+          <h1 className="text-[1.8rem] md:text-[3.8rem] text-white font-shamel-bold " >لماذا منصة مؤثر</h1>
         </div>
       </div>
       <div className="container relative max-h-[833px]" >

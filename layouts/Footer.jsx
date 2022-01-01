@@ -4,12 +4,12 @@ import map from '../public/images/map.png'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-[#5B315E] relative">
+    <footer className="footer text-center md:text-right bg-[#5B315E] relative">
       <div className="container px-6">
 
         <div className="sm:flex sm:mt-8 text-white text-[14px] pt-[70px]">
-          <div className="sm:w-full flex flex-col md:flex-row justify-between">
-            <div className="flex flex-col">
+          <div className="sm:w-full flex flex-col items-center md:items-start md:flex-row justify-between">
+            <div className="flex items-center md:items-baseline flex-col">
               <img width="40.98" height="40.98" src={logoWhite.src} alt="" />
               <p className="text-[1.2rem] mt-[22px] max-w-[343px]" >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</p>
               <div className="mt-[21px] flex gap-[9px]" >
@@ -27,7 +27,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col mt-[32px] md:mt-0">
               <span className="font-bold text-[#E6427A] text-[1.6rem] mb-[32px] font-shamel-bold">روابط تهمك</span>
               <span className="mb-[18px]"><a href="#" className="   ">الرئيسية</a></span>
               <span className="mb-[18px]"><a href="#" className="   ">الخدمات</a></span>
@@ -45,7 +45,7 @@ const Footer = () => {
               <span className="font-bold text-[#E6427A] text-[1.6rem] mt-4 md:mt-0 mb-[32px] font-shamel-bold">عنوان مؤثر</span>
               <span className="mb-[18px]"><a href="#" className="   ">الرياض شارع العليا، الملك فهد 12271</a></span>
               <div>
-                <img className="w-[195px] h-[106px] mt-[14px]" src={map.src} alt="" />
+                <img className="w-[195px] h-[106px] mt-[14px] mx-auto md:mx-0" src={map.src} alt="" />
               </div>
             </div>
           </div>

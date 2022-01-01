@@ -14,27 +14,25 @@ const Ads = () => {
   const { width } = useWindowSize()
   const navigationPrevRef = useRef()
   const navigationNextRef = useRef()
-  const [slidesPerView, setSlidesPerView] = useState(4)
+  const [slidesPerView, setSlidesPerView] = useState(1)
 
   useEffect(() => {
-    if (width > 1024) {
-      setSlidesPerView(4)
-    }
-    if (width <= 1024) {
-      setSlidesPerView(3)
-    }
+    if (width > 1024) { setSlidesPerView(4) }
+    if (width <= 1024) { setSlidesPerView(3) }
+    if (width <= 768) { setSlidesPerView(2) }
+    if (width <= 640) { setSlidesPerView(1) }
 
   }, [width])
 
   return (
-    <section className=" overflow-hidden max-w-[1440px] mx-auto" >
-      <div className="flex items-end justify-between py-[96px] container" >
-        <div>
-          <h3 className="text-[#E6427A] text-[1.6rem]" >الحملات</h3>
-          <h1 className="text-[#2E1A46] text-[3.8rem]" >الحملات الاعلانية</h1>
+    <section className=" relative overflow-hidden max-w-[1440px] mx-auto pb-[112px] md:pb-0" >
+      <div className="flex items-center md:items-end justify-center md:justify-between py-[41px] md:py-[96px] container text-center md:text-right" >
+        <div className="inline-block" >
+          <h3 className="text-[#E6427A] text-[1.2rem] md:text-[1.6rem]" >الحملات</h3>
+          <h1 className="text-[#2E1A46] text-[1.8rem] md:text-[3.8rem]" >الحملات الاعلانية</h1>
         </div>
 
-        <div className="flex" >
+        <div className="flex absolute md:static bottom-[90px] " >
           <div ref={navigationPrevRef}>
             <button className="w-[75px] h-[42px] text-[#E6427A]  flex items-center justify-center rounded-[12px] transition-all " >
               <svg xmlns="http://www.w3.org/2000/svg" width="24.001" height="12.586" viewBox="0 0 24.001 12.586">
@@ -50,12 +48,12 @@ const Ads = () => {
         </div>
 
       </div>
-      <div className=" pr-[80px] 1xl:pr-[140px] mb-[70px]" >
+      <div className=" custom-container md:pr-[80px] 1xl:pr-[140px] mb-[70px]" >
 
-        <Swiper slidesPerView={slidesPerView} dir="rtl" loop={true} navigation={{
+        <Swiper spaceBetween={50} slidesPerView={slidesPerView} dir="rtl" loop={true} navigation={{
           prevEl: navigationPrevRef.current,
           nextEl: navigationNextRef.current
-        }} className="mySwiper"
+        }}
           onSwiper={(swiper) => {
             // Delay execution for the refs to be defined
             setTimeout(() => {
@@ -72,7 +70,7 @@ const Ads = () => {
           {SliderData.map((slide, index) => {
             return (
               <SwiperSlide key={index} >
-                <img className="w-[319px] h-[398px] pr-[40px]" src={slide.image} alt="ads" key={index} />
+                <img className="w-[319px] h-[398px] md:pr-[40px]" src={slide.image} alt="ads" key={index} />
               </SwiperSlide>
             )
           })}

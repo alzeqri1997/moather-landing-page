@@ -6,33 +6,33 @@ import usersIcon from '../../public/images/users_icon.svg'
 
 const Clients = () => {
   return (
-    <section className="my-[82px] container" >
+    <section className="my-[40px] md:my-[82px] container" >
       <div className="flex items-center justify-center flex-col" >
         <div className="text-center" >
-          <h3 className="text-[1.6rem] text-[#E6427A]" >خدماتنا</h3>
-          <h1 className="font-shamel-bold text-[3.8rem] text-[#2E1A46]" >خدمات العملاء</h1>
+          <h3 className=" text-[1.2rem] md:text-[1.6rem] text-[#E6427A]" >خدماتنا</h3>
+          <h1 className="font-shamel-bold text-[1.8rem] md:text-[3.8rem] text-[#2E1A46]" >خدمات العملاء</h1>
         </div>
 
 
-        <div className="grid grid-cols-2 1xl:grid-cols-3 gap-[30px] mt-[60px]" >
-          <div className="w-[320px] drop-shadow-shadow-text rounded-[6px] bg-white" >
-            <div className="mt-[50px] mr-[69px] mb-[40px]" >
+        <div className="grid grid-cols-1 md:grid-cols-2 1xl:grid-cols-3 gap-[30px] mt-[29px] md:mt-[60px]" >
+          <div className="w-[303] md:w-[320px] drop-shadow-shadow-text rounded-[6px] bg-white" >
+            <div className="mt-[50px] mr-[32.7px] md:mr-[69px] mb-[40px]" >
               <img src={castIcon.src} alt="cast icon" />
-              <p className="text-[1.8rem] mt-[29px]" >نقدم لك خدمات المؤثرين
+              <p className=" text-[1.7rem] md:text-[1.8rem] mt-[29px]" >نقدم لك خدمات المؤثرين
                 حسب المجالات</p>
             </div>
           </div>
-          <div className="w-[320px] drop-shadow-shadow-text rounded-[6px] custom-gradient" >
-            <div className="mt-[50px] mr-[54px] mb-[40px] text-white" >
+          <div className="w-[303] md:w-[320px] drop-shadow-shadow-text rounded-[6px] custom-gradient" >
+            <div className="mt-[50px] mr-[33.5px] md:mr-[54px] mb-[40px] text-white" >
               <img src={layerIcon.src} alt="layer icon" />
               <p className="text-[1.8rem] mt-[29px]" >نعمل معك علي اختيار المثر
                 المناسب لهدفك</p>
             </div>
           </div>
-          <div className="w-[320px] drop-shadow-shadow-text rounded-[6px] bg-white" >
-            <div className="mt-[50px] mr-[60px] mb-[40px]">
+          <div className="w-[303] md:w-[320px] drop-shadow-shadow-text rounded-[6px] bg-white" >
+            <div className="mt-[50px] mr-[32px] md:mr-[60px] mb-[40px]">
               <img src={usersIcon.src} alt="cast" />
-              <p className="text-[1.8rem] mt-[29px]" >نعد السناريو الاعلاني بطرق
+              <p className="text-[1.9rem] mt-[29px]" >نعد السناريو الاعلاني بطرق
                 مبتكره ومبدعة</p>
             </div>
           </div>

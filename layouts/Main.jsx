@@ -10,7 +10,7 @@ import Customers from '../components/Customers/Customers'
 
 const Main = () => {
   return (
-    <main className="" >
+    <main className=" " >
       <div className="bg-white" >
         <Clients />
       </div>
@@ -21,7 +21,7 @@ const Main = () => {
         <Analytics />
       </div>
       <AboutUs />
-      <div className="bg-[#F9F9F9] mt-[440px]" >
+      <div className="bg-[#F9F9F9] mt-[180px] md:mt-[440px]" >
         <FeedBack />
       </div>
       <div className="bg-white" >

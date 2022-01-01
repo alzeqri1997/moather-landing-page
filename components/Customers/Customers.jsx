@@ -16,23 +16,23 @@ const Customers = () => {
   return (
     <section className="container" >
       <div className="text-center mt-[72px] mb-[49px]" >
-        <h3 className="text-[1.6rem] text-[#E6427A]" >خدماتنا</h3>
-        <h1 className="font-shamel-bold mt-[15px] text-[3.8rem] text-[#2E1A46]" >خدمات العملاء</h1>
+        <h3 className="text-[1.2rem] md:text-[1.6rem] text-[#E6427A]" >خدماتنا</h3>
+        <h1 className="font-shamel-bold mt-[15px] text-[1.8rem] md:text-[3.8rem] text-[#2E1A46]" >خدمات العملاء</h1>
       </div>
 
-      <div className="grid grid-cols-6 grid-row-2 gap-y-[32px] place-items-center mb-[49px]" >
-        <img src={img1.src} alt="customer image logo" />
-        <img src={img2.src} alt="customer image logo" />
-        <img src={img3.src} alt="customer image logo" />
-        <img src={img4.src} alt="customer image logo" />
-        <img src={img5.src} alt="customer image logo" />
-        <img src={img6.src} alt="customer image logo" />
-        <img src={img7.src} alt="customer image logo" />
-        <img src={img8.src} alt="customer image logo" />
-        <img src={img9.src} alt="customer image logo" />
-        <img src={img10.src} alt="customer image logo" />
-        <img src={img11.src} alt="customer image logo" />
-        <img src={img12.src} alt="customer image logo" />
+      <div className="grid grid-cols-2 md:grid-cols-6 grid-row-2 gap-y-[32px] place-items-center mb-[49px]" >
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img1.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img2.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img3.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img4.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img5.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img6.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img7.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img8.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img9.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img10.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img11.src} alt="customer image logo" /></div>
+        <div className="w-[80px] md:w-[100px] flex justify-center items-center" ><img src={img12.src} alt="customer image logo" /></div>
       </div>
     </section>
   )
