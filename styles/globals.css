@@ -105,9 +105,8 @@ body {
 }
 
 .custom-gradient {
-  background-image: url("../public/images/bg-gradient.svg");
-  background-position: center;
-  background-size: 530px;
+  background: linear-gradient(to left, #ffb71b, 15%, #e6427a);
+  background-size: 460px;
 }
 
 /* swiper custom style */
