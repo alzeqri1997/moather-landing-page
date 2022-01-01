@@ -26,6 +26,10 @@ body {
   font-family: "shamel-medium" !important;
   font-size: 62.5%;
 }
+.active {
+  background-color: rgba(245, 197, 202, 0.15);
+  color: #e6427a;
+}
 
 /* add shadow when scrolled */
 .nav-scrolled {
